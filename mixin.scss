@@ -1,0 +1,18 @@
+@mixin between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin btn {
+  width: 132px;
+  height: 44px;
+  color: white;
+  background: #FB8F1D;
+  border-radius: 8px;
+  font-weight: 500;
+}
